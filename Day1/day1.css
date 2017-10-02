@@ -1,0 +1,83 @@
+body{
+  background-color:#babbc1;
+  margin-top: 50px;
+font-family: 'Mukta', sans-serif;
+  color: #FFF;
+  font-weight: 700;
+}
+button, input {
+    display: block;
+    height: 50px;
+    border:none;
+    margin: 10px auto;
+}
+button {
+    font-family: 'Mukta', sans-serif;
+    width: 300px;
+    color: #FFF;
+    font-size: 1.025rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+}
+button:hover {
+    opacity: 0.9;
+}
+button[name=facebook] {
+    background-color: #3B5999;
+}
+button[name=twitter] {
+    background-color: #55ACEE;
+}
+i.fa {
+    border-right: 1px solid #FFF;
+    padding-right: 10px;
+    font-size: 1.1rem;
+    margin-right: 5px;
+}
+i.fa.fa-twitter {
+    position: relative;
+    left: -10px;
+}
+input {
+    width: 280px;
+    padding-left: 20px;
+    font-size: 1.02rem;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #FFF;
+}
+p {
+    margin: 5px;
+}
+#signup{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#143347;
+    height: 600px;
+    width: 400px;
+    box-shadow: 8px 8px 15px #888;
+    text-align: center;
+}
+.container {
+    position: relative;
+    top: 25px;
+}
+.signup-text {
+    font-size: 1.375rem;
+    margin-bottom: 20px;
+}
+.signup-btn {
+    background-color: #CF000F;
+    margin-top: 20px;
+}
+.or {
+    color:#adc8d8;
+}
+.has-account {
+    color: #5f92af;
+    font-weight: 400;
+}
