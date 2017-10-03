@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Daily UI | Day 2 | Credit Card Checkout</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <script src="https://use.fontawesome.com/fa4e67e080.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Dosis:400,600,700" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="item-purchase-container">
+                <img src="images/laptop.png" alt="Image of a Laptop">
+                <p class="item-name">Laptop Notebook</p>
+                <h4>$69.99</h4>
+            </div>
+            <div class="payment-container">
+                <form class="" action="index.html" method="post">
+                    <h3>Payment Method</h3>
+                    <div class="payment-types">
+                        <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                        <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                        <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                    </div>
+                    <label for="cardholder">Cardholder Name</label>
+                    <input type="text" name="fullname" id="cardholder">
+
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" id="cardNumber">
+
+                    <label for="expireDate" class="expireDate">Expiry Date</label>
+                    <label for="cvv" class="cvv">CVV2</label>
+                    <div class="expire-cvv-inputs">
+                        <input type="text" id="expireDate">
+                        <input type="password" id="cvv">
+                    </div>
+
+                    <button type="submit" name="confirm">Confirm</button>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
