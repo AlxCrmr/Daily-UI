@@ -476,149 +476,154 @@ template {
 }
 
 /* line 1, ../sass/partials/_base.scss */
-html {
+html, body, .cover {
   height: 100%;
 }
 
 /* line 4, ../sass/partials/_base.scss */
 body {
-  color: #fff;
-  height: 100%;
-  font-family: "Dosis", sans-serif;
-  background: linear-gradient(to bottom, #1d2e3e 0%, #416e9b 50%, #3f6e9d 51%, #3f70a2 71%, #376ba0 100%);
+  font-family: sans-serif;
+  font-family: 'Exo 2', sans-serif;
+  color: #FFF;
 }
 
-/* line 11, ../sass/partials/_base.scss */
-i {
-  margin: 0px 10px;
-}
-
-/* line 14, ../sass/partials/_base.scss */
-h3 {
+/* line 9, ../sass/partials/_base.scss */
+header {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  margin-top: 50px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 600;
 }
 
-/* line 23, ../sass/partials/_base.scss */
-h4 {
-  color: #be2816;
-  font-size: 2rem;
-  margin: 5px 50px;
+/* line 12, ../sass/partials/_base.scss */
+a {
+  color: #FFF;
+  text-decoration: none;
 }
 
-/* line 29, ../sass/partials/_base.scss */
+/* line 16, ../sass/partials/_base.scss */
 img {
-  width: 400px;
-  margin: 20px 50px 10px;
+  width: 500px;
+  float: left;
 }
 
-/* line 33, ../sass/partials/_base.scss */
-.item-name {
-  color: #2F2C33;
-  margin-bottom: 5px;
-  margin-left: 50px;
-  text-transform: uppercase;
+/* line 20, ../sass/partials/_base.scss */
+.cover {
+  background: linear-gradient(100deg, rgba(164, 42, 30, 0.5), rgba(54, 54, 54, 0.8)), url("http://res.cloudinary.com/alxcrmr/image/upload/v1501373406/paintMess_mesr9o.jpg") top left no-repeat;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  box-shadow: inset 0 0 100px #000;
+  position: relative;
+  top: -62px;
+  z-index: 1;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+.cover-text {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 35, ../sass/partials/_base.scss */
+.cover-text h1 {
+  margin: 10px 0 0;
+  font-size: 4.375rem;
+  letter-spacing: -4px;
 }
 
 /* line 40, ../sass/partials/_base.scss */
-h4, .item-name {
-  position: relative;
-  bottom: 50px;
-}
-
-/* line 1, ../sass/partials/_containers.scss */
-.container {
-  width: 900px;
-  margin: 100px;
-}
-
-/* line 5, ../sass/partials/_containers.scss */
-.item-purchase-container {
-  width: 500px;
-  height: 400px;
-  background-color: #FFF;
-  float: left;
+input {
+  height: 50px;
+  border: none;
+  padding-left: 20px;
+  width: 300px;
   margin-top: 50px;
 }
 
-/* line 12, ../sass/partials/_containers.scss */
-.payment-container {
-  width: 400px;
-  height: 500px;
-  background-color: #2F2C33;
+/* line 47, ../sass/partials/_base.scss */
+p {
+  font-size: 1.5rem;
+}
+
+/* line 50, ../sass/partials/_base.scss */
+.subscribe-span {
+  display: block;
+  position: relative;
+  top: 5px;
+  right: 130px;
+  text-shadow: 1px 1px #000;
+}
+
+/* line 1, ../sass/partials/_nav.scss */
+nav {
+  height: 60px;
+  background-color: #000;
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 9;
+}
+
+/* line 8, ../sass/partials/_nav.scss */
+#logo {
+  font-family: 'Satisfy', cursive;
   float: left;
-}
-
-/* line 18, ../sass/partials/_containers.scss */
-.payment-types {
-  text-align: center;
   font-size: 2rem;
+  margin-left: 50px;
+  line-height: 60px;
 }
 
-/* line 22, ../sass/partials/_containers.scss */
-.expire-cvv-inputs {
-  display: block;
+/* line 15, ../sass/partials/_nav.scss */
+.link {
+  float: right;
 }
 
-/* line 1, ../sass/partials/_form.scss */
-input {
-  display: block;
-  border-radius: 5px;
-  border: #939393 solid 1px;
-  outline-color: #be2816;
-  width: 340px;
-  height: 30px;
-  margin-left: 25px;
-  background-color: #2F2C33;
-  color: #E1E3E0;
-  padding-left: 10px;
-  font-family: 'Dosis', sans-serif;
+/* line 18, ../sass/partials/_nav.scss */
+nav a {
+  margin-right: 30px;
 }
 
-/* line 14, ../sass/partials/_form.scss */
-#expireDate, #cvv {
-  width: 150px;
-  margin-left: 25px;
-  display: inline-block;
+/* line 21, ../sass/partials/_nav.scss */
+nav a:hover {
+  color: #8E8B82;
 }
 
-/* line 20, ../sass/partials/_form.scss */
-.expireDate, .cvv {
-  display: inline-block;
-  margin-right: 73px;
+/* line 24, ../sass/partials/_nav.scss */
+#logo-art {
+  font-size: 1.625rem;
+  font-weight: bold;
+  color: #A42A1E;
+  padding: 0 1px 0 4px;
 }
 
-/* line 24, ../sass/partials/_form.scss */
-label {
-  display: block;
-  margin-left: 25px;
-  margin-top: 30px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: .9rem;
-  color: #ADB3B1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 5px;
+/* line 30, ../sass/partials/_nav.scss */
+#logo-art:hover {
+  color: #E0E0E0;
 }
 
 /* line 1, ../sass/partials/_buttons.scss */
 button {
-  background-color: #be2816;
-  border: none;
-  width: 100%;
-  height: 50px;
+  background-color: transparent;
   color: #FFF;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1.3rem;
   cursor: pointer;
-  position: relative;
-  top: 53px;
-  font-family: 'Dosis', sans-serif;
+  font-size: 1.1rem;
+}
+
+/* line 7, ../sass/partials/_buttons.scss */
+button:hover {
+  background-color: #cc0404;
+}
+
+/* line 10, ../sass/partials/_buttons.scss */
+.shop {
+  background-color: #a60000;
+  border: none;
+  width: 100px;
+  height: 60px;
+}
+
+/* line 16, ../sass/partials/_buttons.scss */
+.subscribe {
+  background-color: #a60000;
+  border: none;
+  width: 120px;
+  height: 54px;
 }

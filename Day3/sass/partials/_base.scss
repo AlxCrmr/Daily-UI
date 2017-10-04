@@ -1,0 +1,56 @@
+html, body, .cover{
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+     font-family: 'Exo 2', sans-serif;
+     color: #FFF;
+}
+header {
+    text-align: center;
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+img {
+    width: 500px;
+    float: left;
+}
+.cover {
+    background:linear-gradient(100deg,rgba(164,42,30,0.5),rgba(54,54,54,0.8)),url('http://res.cloudinary.com/alxcrmr/image/upload/v1501373406/paintMess_mesr9o.jpg') top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    box-shadow: inset 0 0 100px #000;
+    position: relative;
+    top:-62px;
+    z-index: 1;
+}
+ .cover-text {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.cover-text h1 {
+    margin: 10px 0 0;
+    font-size: 4.375rem;
+    letter-spacing:  -4px;
+}
+input {
+    height: 50px;
+    border:none;
+    padding-left: 20px;
+    width: 300px;
+    margin-top: 50px;
+}
+p {
+    font-size: 1.5rem;
+}
+.subscribe-span {
+    display: block;
+    position: relative;
+    top: 5px;
+    right: 130px;
+    text-shadow: 1px 1px #000;
+}

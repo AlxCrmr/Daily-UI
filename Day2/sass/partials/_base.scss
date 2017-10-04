@@ -1,7 +1,12 @@
+html{
+  height: 100%;
+}
 body {
-    color: #FFF;
-    background-color: #b67979;
-    font-family: 'Dosis', sans-serif;
+  color: #fff;
+  height: 100%;
+ font-family: "Dosis", sans-serif;
+
+  background: linear-gradient(to bottom, rgba(29,46,62,1) 0%, rgba(65,110,155,1) 50%, rgba(63,110,157,1) 51%, rgba(63,112,162,1) 71%, rgba(55,107,160,1) 100%);
 }
 i{
     margin: 0px 10px;
