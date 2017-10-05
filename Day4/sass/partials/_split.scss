@@ -1,0 +1,22 @@
+.split {
+    font-size: 1.5rem;
+    line-height: 160px;
+}
+i.fa.fa-users{
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+#split-amount {
+    font-size: 2rem;
+}
+i.fa.fa-plus, i.fa.fa-minus {
+    font-size: 1.5rem;
+    margin: 0 5px;
+    cursor: pointer;
+}
+i.fa.fa-plus:hover, i.fa.fa-minus:hover {
+    color: $secondColor;
+}
+.people {
+    font-size: 1.1rem;
+}

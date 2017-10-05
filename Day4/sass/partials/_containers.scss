@@ -1,0 +1,29 @@
+.calculator-container {
+    width: 500px;
+    height: 800px;
+    background-color: $mainColor;
+    margin: 50px auto;
+}
+.small-container {
+    height: 100px;
+}
+.big-container {
+    height: 160px;
+}
+.bill-amount-container {
+    background-color: $secondColor;
+}
+.split-container {
+    text-align: center;
+}
+.service-quality-container {
+    text-align: center;
+}
+.tip-percentage-container {
+    text-align: center;
+}
+.tip-total-container {
+    background-color: $secondColor;
+    height: 116px;
+    padding-top: 20px;
+}

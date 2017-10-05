@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Daily UI | Day 4 | Calculator</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <script src="https://use.fontawesome.com/fa4e67e080.js"></script>
+    </head>
+    <body>
+        <div class="calculator-container">
+            <div class="bill-amount-container big-container">
+                <span class="bill-amount">Bill Amount</span>
+                <span id="bill-total">$136.95</span>
+            </div>
+            <div class="split-container big-container">
+                <span class="split"><i class="fa fa-users" aria-hidden="true"></i> Split Between:</span>
+                <i class="fa fa-plus add" aria-hidden="true"></i> <span id="split-amount">5</span><span class="people">PPL</span>  <i class="fa fa-minus minus" aria-hidden="true"></i>
+            </div>
+            <div class="service-quality-container big-container">
+                <span class="service-quality">Service Quality</span>
+                <div class="service-quality-faces">
+                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    <i class="fa fa-meh-o" aria-hidden="true"></i>
+                    <i class="fa fa-frown-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="tip-percentage-container small-container">
+                <span class="tip-container">Tip Percentage:</span>
+                <i class="fa fa-plus add" aria-hidden="true"></i>
+                <span id="percentage">10<span class="percent">%</span></span>
+                <i class="fa fa-minus minus" aria-hidden="true"></i>
+            </div>
+                <div class="totals-container big-container">
+                    <div class="total">
+                        <span class="without-tip">Total without Tip:</span><span id="total-without-tip">$9.02</span>
+                    </div>
+                    <div class="total">
+                        <span class="tip">Total Tip:</span> <span id="total-tip">$52.50</span>
+                    </div>
+
+
+
+                    <div class="tip-total-container">
+                        <span class="tip-per-person">Tip Per Person:</span> <span id="total-tip-per-person">$10.50</span>
+                    </div>
+                </div>
+        </div>
+
+    </body>
+</html>
