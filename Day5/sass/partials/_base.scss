@@ -1,0 +1,51 @@
+body{
+    background-color: #a4d7f0;
+}
+.app-icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    background: linear-gradient(135deg, rgba(45,46,50,1) 0%, rgba(65,65,66,1) 50%, rgba(65,65,66,1) 51%, rgba(65,65,66,1) 51%, rgba(54,55,61,1) 71%, rgba(45,46,50,1) 100%);
+    margin: 100px;
+    border: 10px solid #FFF;
+}
+.battery-top{
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    border: 10px solid #FFF;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
+}
+.battery-base {
+    width: 70px;
+    height: 120px;
+    border: 10px solid #FFF;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+i.fa.fa-bolt {
+    color: #f4980f;
+    font-size: 4.5rem;
+    position: relative;
+    top:5px;
+    left: 20px;
+}
+
+.bar1, .bar2{
+    width: 55px;
+    height: 10px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    top: 15px;
+}

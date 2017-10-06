@@ -4,9 +4,26 @@
     padding-top: 30px;
     font-weight: 700;
 }
-#bill-total {
-    display: block;
+input#bill-total {
+    display: inline-block;
     text-align: center;
     margin-top: 10px;
-    font-size: 3rem;
+    font-size: 4rem;
+    width: 250px;
+    background-color: $secondColor;
+    border:none;
+    color: #FFF;
+    outline:0;
+}
+input::placeholder{
+    color: #FFF;
+}
+input:focus::-webkit-input-placeholder {
+     color:transparent;
+ }
+
+.dollarSign{
+    font-size: 4rem;
+    display: inline-block;
+    margin-left: 100px;
 }

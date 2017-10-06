@@ -478,7 +478,7 @@ template {
 /* line 1, ../sass/partials/_base.scss */
 body {
   color: #FFF;
-  font-family: sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   font-size: 1.2rem;
   background-color: #E9E9E9;
@@ -523,6 +523,11 @@ body {
 }
 
 /* line 25, ../sass/partials/_containers.scss */
+.totals-container {
+  font-weight: 700;
+}
+
+/* line 28, ../sass/partials/_containers.scss */
 .tip-total-container {
   background-color: #058bec;
   height: 116px;
@@ -538,11 +543,33 @@ body {
 }
 
 /* line 7, ../sass/partials/_billAmount.scss */
-#bill-total {
-  display: block;
+input#bill-total {
+  display: inline-block;
   text-align: center;
   margin-top: 10px;
-  font-size: 3rem;
+  font-size: 4rem;
+  width: 250px;
+  background-color: #058bec;
+  border: none;
+  color: #FFF;
+  outline: 0;
+}
+
+/* line 18, ../sass/partials/_billAmount.scss */
+input::placeholder {
+  color: #FFF;
+}
+
+/* line 21, ../sass/partials/_billAmount.scss */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 25, ../sass/partials/_billAmount.scss */
+.dollarSign {
+  font-size: 4rem;
+  display: inline-block;
+  margin-left: 100px;
 }
 
 /* line 1, ../sass/partials/_split.scss */
@@ -565,7 +592,7 @@ i.fa.fa-users {
 /* line 12, ../sass/partials/_split.scss */
 i.fa.fa-plus, i.fa.fa-minus {
   font-size: 1.5rem;
-  margin: 0 5px;
+  margin: 0 10px;
   cursor: pointer;
 }
 
@@ -575,6 +602,11 @@ i.fa.fa-plus:hover, i.fa.fa-minus:hover {
 }
 
 /* line 20, ../sass/partials/_split.scss */
+i.fa.fa-plus {
+  margin-left: 50px;
+}
+
+/* line 23, ../sass/partials/_split.scss */
 .people {
   font-size: 1.1rem;
 }
@@ -613,11 +645,6 @@ i.fa.fa-plus:hover, i.fa.fa-minus:hover {
   font-size: 2rem;
 }
 
-/* line 8, ../sass/partials/_tipPercentage.scss */
-.percent {
-  font-size: 1.1rem;
-}
-
 /* line 1, ../sass/partials/_totalsContainer.scss */
 .total {
   margin-left: 30px;
@@ -625,21 +652,29 @@ i.fa.fa-plus:hover, i.fa.fa-minus:hover {
 }
 
 /* line 5, ../sass/partials/_totalsContainer.scss */
+.tip-per-person {
+  font-weight: 700;
+}
+
+/* line 8, ../sass/partials/_totalsContainer.scss */
+.tip-total-container span {
+  font-size: 1.2rem;
+  display: block;
+  margin-left: 30px;
+}
+
+/* line 14, ../sass/partials/_totalsContainer.scss */
+#total-without-tip, #total-tip, #total-with-tip {
+  margin-right: 50px;
+  float: right;
+  font-weight: 400;
+}
+
+/* line 19, ../sass/partials/_totalsContainer.scss */
 #total-tip-per-person {
   text-align: center;
   font-size: 4rem;
   position: relative;
   top: 5px;
-}
-
-/* line 11, ../sass/partials/_totalsContainer.scss */
-.tip-per-person {
-  font-weight: 700;
-}
-
-/* line 14, ../sass/partials/_totalsContainer.scss */
-.tip-total-container span {
-  font-size: 1.2rem;
-  display: block;
-  margin-left: 30px;
+  font-weight: 400;
 }
