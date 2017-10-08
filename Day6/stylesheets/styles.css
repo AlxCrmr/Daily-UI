@@ -498,27 +498,34 @@ p {
   padding: 30px 30px 10px;
   line-height: 1.249rem;
   letter-spacing: 1px;
+  white-space: pre-line;
 }
 
-/* line 20, ../sass/partials/_base.sass */
+/* line 21, ../sass/partials/_base.sass */
 footer {
   background: #151515;
   width: 100%;
   height: 50px;
   position: relative;
-  top: 18px;
+  top: 19px;
   text-align: center;
 }
-/* line 28, ../sass/partials/_base.sass */
+/* line 29, ../sass/partials/_base.sass */
 footer i.fa {
   font-size: 2rem;
   line-height: 50px;
   color: #999999;
   margin: 0 40px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+/* line 37, ../sass/partials/_base.sass */
+footer i.fa:hover {
+  color: #FFF;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 35, ../sass/partials/_base.sass */
+/* line 41, ../sass/partials/_base.sass */
 .container {
   width: 500px;
   height: 700px;
@@ -526,49 +533,77 @@ footer i.fa {
   background: #FFF;
 }
 
-/* line 41, ../sass/partials/_base.sass */
+/* line 47, ../sass/partials/_base.sass */
 .stat-bar {
   display: block;
   margin-left: 35px;
   line-height: 30px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
-/* line 47, ../sass/partials/_base.sass */
+/* line 54, ../sass/partials/_base.sass */
 .stat, .following, .followers, .posts {
   display: inline-block;
   padding: 0 10px;
 }
 
-/* line 53, ../sass/partials/_base.sass */
+/* line 61, ../sass/partials/_base.sass */
+.following:hover .stat-name {
+  color: black;
+}
+/* line 64, ../sass/partials/_base.sass */
+.following:hover .stat-number {
+  color: #eea143;
+}
+
+/* line 67, ../sass/partials/_base.sass */
 .followers {
   border-left: 1px solid #aeaeae;
 }
+/* line 71, ../sass/partials/_base.sass */
+.followers:hover .stat-name {
+  color: black;
+}
+/* line 74, ../sass/partials/_base.sass */
+.followers:hover .stat-number {
+  color: #eea143;
+}
 
-/* line 56, ../sass/partials/_base.sass */
+/* line 77, ../sass/partials/_base.sass */
 .posts {
   border-left: 1px solid #aeaeae;
 }
+/* line 81, ../sass/partials/_base.sass */
+.posts:hover .stat-name {
+  color: black;
+}
+/* line 84, ../sass/partials/_base.sass */
+.posts:hover .stat-number {
+  color: #eea143;
+}
 
-/* line 60, ../sass/partials/_base.sass */
+/* line 87, ../sass/partials/_base.sass */
 .stat-name {
   color: #333;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-/* line 65, ../sass/partials/_base.sass */
+/* line 92, ../sass/partials/_base.sass */
 .stat-number {
+  font-size: 1.2rem;
   font-weight: 700;
   color: #E98A15;
+  margin-left: 5px;
 }
 
-/* line 69, ../sass/partials/_base.sass */
+/* line 98, ../sass/partials/_base.sass */
 .social-media-icons {
   margin-left: 120px;
 }
 
-/* line 72, ../sass/partials/_base.sass */
+/* line 101, ../sass/partials/_base.sass */
 .social-icon, .twitter, .facebook, .instagram, .pinterest {
   display: inline-block;
   border-radius: 20%;
@@ -582,24 +617,44 @@ footer i.fa {
   cursor: pointer;
 }
 
-/* line 84, ../sass/partials/_base.sass */
+/* line 113, ../sass/partials/_base.sass */
 .twitter {
   background: #1DA1F3;
 }
+/* line 117, ../sass/partials/_base.sass */
+.twitter:hover {
+  background: #0967a1;
+  transition: all 0.2s ease;
+}
 
-/* line 88, ../sass/partials/_base.sass */
+/* line 122, ../sass/partials/_base.sass */
 .facebook {
   background: #3B579D;
 }
+/* line 126, ../sass/partials/_base.sass */
+.facebook:hover {
+  background: #1f2e53;
+  transition: all 0.2s ease;
+}
 
-/* line 92, ../sass/partials/_base.sass */
+/* line 130, ../sass/partials/_base.sass */
 .instagram {
   background: linear-gradient(45deg, #fab265 0%, #c94b79 55%, #ae4891 61%, #8d3dbb 100%);
 }
+/* line 134, ../sass/partials/_base.sass */
+.instagram:hover {
+  background: linear-gradient(45deg, #8d3dbb 0%, #ae4891 55%, #c94b79 61%, #fab265 100%);
+  transition: all 0.2s ease;
+}
 
-/* line 96, ../sass/partials/_base.sass */
+/* line 138, ../sass/partials/_base.sass */
 .pinterest {
   background: #BD081C;
+}
+/* line 142, ../sass/partials/_base.sass */
+.pinterest:hover {
+  background: #5b040e;
+  transition: all 0.2s ease;
 }
 
 /* line 1, ../sass/partials/_buttons.sass */
@@ -609,21 +664,35 @@ button {
   float: right;
   color: #FFF;
   margin-right: 5px;
-  position: absolute;
-  top: 460px;
+  position: relative;
+  top: -30px;
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
-/* line 14, ../sass/partials/_buttons.sass */
+/* line 15, ../sass/partials/_buttons.sass */
 .follow {
   background: #A40606;
-  left: 1060px;
+  left: -20px;
+  transition: all 0.2s ease-in-out;
+}
+/* line 20, ../sass/partials/_buttons.sass */
+.follow:hover {
+  background: #730404;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 18, ../sass/partials/_buttons.sass */
+/* line 24, ../sass/partials/_buttons.sass */
 .message {
   background: #151515;
-  left: 930px;
+  left: -20px;
+  transition: all 0.2s ease-in-out;
+}
+/* line 29, ../sass/partials/_buttons.sass */
+.message:hover {
+  background: black;
+  transition: all 0.2s ease-in-out;
 }

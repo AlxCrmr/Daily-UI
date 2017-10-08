@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Daily UI | Day 7 | Settings</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <script src="https://use.fontawesome.com/fa4e67e080.js"></script>
+        <style media="screen">
+        :root {
+          --base: #0f915f;
+          --spacing: 10px;
+          --blur: 10px;
+          --width: 300px;
+          --height: 600px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="settings-container">
+                <header>
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <h1>Picture Settings</h1>
+                </header>
+                <form class="controls">
+
+                    <input type="text" id="user-input" value="http://bit.ly/2wEbApN">
+                    <input id="btn" type="button" value="Choose Image" onclick="getImg();" />
+
+                    <label for="base">Base Color:</label>
+                    <input type="color" name="base" value="#0f915f" />
+
+                    <label for="spacing">Spacing:</label>
+                    <input type="range" name="spacing"  min="0" max="100"value="10" data-sizing="px"  />
+
+                    <label for="blur">Blur:</label>
+                    <input type="range" name="blur"  min="0" max="100" value="10" data-sizing="px" />
+
+                    <label for="height">Height:</label>
+                    <input type="range" name="height"  min="1" max="700" value="600" data-sizing="px" />
+
+                    <label for="width">Width:</label>
+                    <input type="range" name="width"  min="1" max="450" value="350" data-sizing="px" />
+
+                </form>
+
+                <footer>
+                    <button type="button" class="save">Save Changes</button>
+                    <button type="button" class="cancel">Cancel</button>
+                </footer>
+            </div>
+
+            <div class="display-container">
+                <div id="images"></div>
+            </div>
+        </div>
+        <script src="javascripts/main.js" charset="utf-8"></script>
+    </body>
+</html>

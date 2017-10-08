@@ -1,0 +1,35 @@
+button
+    width: 140px
+    height: 40px
+    display: inline-block
+    font-weight: 700
+    cursor: pointer
+    margin: 20px 13px
+    text-transform: uppercase
+    font-size: .9rem
+
+    &:active
+        position: relative
+        top: 1px
+
+    &.save
+        background: #FFF
+        border: none
+        color: $mainColor
+
+        &:hover
+            background: $mainColor
+            border: 1px solid #FFF
+            color: #FFF
+            transition: all .2s ease
+
+
+    &.cancel
+        background: transparent
+        border: none
+        text-shadow: 1px 1px #4976a6
+        color: #FFF
+
+    &:hover
+        border: 1px solid #FFF
+        transition: all .2s ease
