@@ -1,4 +1,6 @@
+## My Completed Projects List
 | No  |  Project Title  |  Completed On | CodePen |
+| :------------: | ------------ | :------------: | ------------ |
 | 1  |  [Sign Up](https://github.com/AlxCrmr/Daily-UI/tree/master/Day1)   | October 1st, 2017 | https://codepen.io/AlxCrmr/full/mmWybM/ |
 | 2  |  [Credit Card Checkout](https://github.com/AlxCrmr/Daily-UI/tree/master/Day2)   | October 2nd, 2017 | https://codepen.io/AlxCrmr/full/KXXWVy/ |
 | 3  |  [Landing Page(above the fold) ](https://github.com/AlxCrmr/Daily-UI/tree/master/Day3)   | October 3rd, 2017 | https://codepen.io/AlxCrmr/full/jLWmax/ |
