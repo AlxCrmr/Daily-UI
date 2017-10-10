@@ -1,0 +1,140 @@
+body
+    background: #f2f2f2
+    color: $textColor
+    font-family: 'Raleway', sans-serif
+
+.container
+    width: 350px
+    height: 540px
+    position: absolute
+    top: 210px
+    left: 545px
+    box-sizing: border-box
+    text-align: center
+
+i.fa
+    cursor: pointer
+
+    &:hover
+        color: darken($textColor, 20%)
+
+    &:active
+        position: relative
+        top: 1px
+
+.info-bar
+    width: 350px
+    height: 100px
+    background: $mainColor
+
+i.fa.fa-angle-left
+    float: left
+    position: relative
+    font-size: 2rem
+    left: 20px
+    top: 15px
+    font-weight: 700
+
+    &:hover
+        color: darken($textColor, 20%)
+
+    &:active
+        position: relative
+        top: 16px
+
+h3
+    font-size: 1.5rem
+    padding-top: 15px
+    margin-bottom: 0
+
+.playing-song
+    width: 350px
+    height: 300px
+    background: lighten($secondColor, 2%)
+
+.playing-song i.fa
+    font-size: 2.5rem
+    position: relative
+    top: -140px
+
+    &:hover
+        color: #b80e0e
+        transition: .2s all ease
+
+    &:active
+        position: relative
+        top: -139px
+
+.playing-song img
+    width: 220px
+    margin: 50px 10px
+    cursor: pointer
+    box-sizing: border-box
+    border: 5px transparent solid
+
+    &:hover
+        border: 5px solid $textColor
+        border-radius: 5px
+        transition: .5s all ease
+
+#phone
+    height: 950px
+
+footer
+    height: 140px
+    background: $mainColor
+
+.song-length
+    padding-top: 10px
+
+footer span.left-nums
+    margin-right: 10px
+
+footer input[type=range]
+    -webkit-appearance: none
+    cursor: pointer
+
+    &:focus
+        outline: none
+
+    &::-webkit-slider-thumb
+        -webkit-appearance: none
+        height: 25px
+        width: 15px
+        border-radius: 3px
+        background: darken($secondColor, 15%)
+        position: relative
+        bottom: 8px
+
+    &::-webkit-slider-runnable-track
+        width: 100%
+        height: 10px
+        cursor: pointer
+        background: $secondColor
+        border-radius: 1.3px
+        border: 1px solid darken($secondColor, 10%)
+
+
+footer span.right-nums
+    margin-left: 10px
+
+footer input[type=range]
+    width: 200px
+    margin-top: 10px
+    position: relative
+    top: 3px
+
+footer .song-buttons i.fa
+    font-size: 3rem
+    padding: 20px 15px 10px
+
+footer i.fa-ellipsis-h
+    font-size: 2rem
+    float: right
+    margin-right: 10px
+    position: relative
+    top: -10px
+
+    &:active
+        position: relative
+        top: -11px
