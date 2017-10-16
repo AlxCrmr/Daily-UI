@@ -9,8 +9,8 @@
 | 6  |  [User Profile ](https://github.com/AlxCrmr/Daily-UI/tree/master/Day6)   | October 6th, 2017 | https://codepen.io/AlxCrmr/full/GMQGzW/ |
 | 7  |  [Settings ](https://github.com/AlxCrmr/Daily-UI/tree/master/Day7)   | October 7th, 2017 | https://codepen.io/AlxCrmr/full/bovGZz/ |
 | 8  |  [404 Page ](https://github.com/AlxCrmr/Daily-UI/tree/master/Day8)   | October 8th, 2017 |  https://codepen.io/AlxCrmr/full/Qqmqza/ |
-| 9  |  [Daily UI Day9](https://github.com/AlxCrmr/Daily-UI/tree/master/Day9)  |  October 9th, 2017 | https://codepen.io/AlxCrmr/full/yzjada/ |
-| 10  | [Daily UI Day10](https://github.com/AlxCrmr/Daily-UI/tree/master/Day10)  |  October 10th, 2017 | https://s.codepen.io/AlxCrmr/debug/YrvWdG/dXkqBbpJVzpM |
-| 11  |  [Daily UI Day11](https://github.com/AlxCrmr/Daily-UI/tree/master/Day11)  | October 11th, 2017 | https://codepen.io/AlxCrmr/full/pWZqoK/ |
-| 12  |  [Daily UI Day12](https://github.com/AlxCrmr/Daily-UI/tree/master/Day12)  | October 14th, 2017 | https://codepen.io/AlxCrmr/full/XexXgO/ |
-| 13  |  [Daily UI Day13](https://github.com/AlxCrmr/Daily-UI/tree/master/Day13) | October 16th, 2017 | https://codepen.io/AlxCrmr/full/GMwrWP/ |
+| 9  |  [Music Player](https://github.com/AlxCrmr/Daily-UI/tree/master/Day9)  |  October 9th, 2017 | https://codepen.io/AlxCrmr/full/yzjada/ |
+| 10  | [Social Share](https://github.com/AlxCrmr/Daily-UI/tree/master/Day10)  |  October 10th, 2017 | https://codepen.io/AlxCrmr/full/YrvWdG |
+| 11  |  [Flash Message](https://github.com/AlxCrmr/Daily-UI/tree/master/Day11)  | October 11th, 2017 | https://codepen.io/AlxCrmr/full/pWZqoK/ |
+| 12  |  [E-commerce (Single Item) ](https://github.com/AlxCrmr/Daily-UI/tree/master/Day12)  | October 14th, 2017 | https://codepen.io/AlxCrmr/full/XexXgO/ |
+| 13  |  [Direct Message](https://github.com/AlxCrmr/Daily-UI/tree/master/Day13) | October 16th, 2017 | https://codepen.io/AlxCrmr/full/GMwrWP/ |
