@@ -14,3 +14,4 @@
 | 11  |  [Flash Message](https://github.com/AlxCrmr/Daily-UI/tree/master/Day11)  | October 11th, 2017 | https://codepen.io/AlxCrmr/full/pWZqoK/ |
 | 12  |  [E-commerce (Single Item) ](https://github.com/AlxCrmr/Daily-UI/tree/master/Day12)  | October 14th, 2017 | https://codepen.io/AlxCrmr/full/XexXgO/ |
 | 13  |  [Direct Message](https://github.com/AlxCrmr/Daily-UI/tree/master/Day13) | October 16th, 2017 | https://codepen.io/AlxCrmr/full/GMwrWP/ |
+| 14  |  [Countdown Timer](https://github.com/AlxCrmr/Daily-UI/tree/master/Day14) | November 5th, 2017 | https://codepen.io/AlxCrmr/pen/jarqgy|

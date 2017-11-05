@@ -477,104 +477,115 @@ template {
 
 /* line 1, ../sass/partials/_base.sass */
 body {
-  background: #caf5f5;
+  background: #c6f4f4;
   font-family: sans-serif;
 }
 
 /* line 5, ../sass/partials/_base.sass */
 nav ul {
   display: block;
+  background: #f9f5fe;
+  height: 60px;
+  border-radius: 10px 10px 0 0;
 }
-/* line 7, ../sass/partials/_base.sass */
+/* line 11, ../sass/partials/_base.sass */
 nav ul::after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 11, ../sass/partials/_base.sass */
+/* line 15, ../sass/partials/_base.sass */
 nav ul li {
   list-style: none;
   float: left;
   margin: 30px 10px;
   color: #552cab;
-}
-/* line 16, ../sass/partials/_base.sass */
-nav ul li.bars {
   position: relative;
-  left: -10px;
-}
-/* line 19, ../sass/partials/_base.sass */
-nav ul li.elipse {
-  float: right;
-  position: relative;
-  right: 30px;
+  top: -5px;
+  cursor: pointer;
 }
 /* line 23, ../sass/partials/_base.sass */
+nav ul li.bars {
+  left: -25px;
+}
+/* line 25, ../sass/partials/_base.sass */
+nav ul li.bars:hover {
+  color: #c5a0fe;
+}
+/* line 27, ../sass/partials/_base.sass */
+nav ul li.elipse {
+  float: right;
+  right: 20px;
+}
+/* line 30, ../sass/partials/_base.sass */
+nav ul li.elipse:hover {
+  color: #c5a0fe;
+}
+/* line 32, ../sass/partials/_base.sass */
 nav ul li.timer-name {
-  position: relative;
-  left: 30px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-/* line 29, ../sass/partials/_base.sass */
-h2 {
-  text-align: center;
-  position: relative;
-  top: 50px;
-}
-
-/* line 34, ../sass/partials/_base.sass */
+/* line 36, ../sass/partials/_base.sass */
 .container {
   width: 50%;
-  margin: 50px auto;
+  margin: 50px;
 }
 
-/* line 38, ../sass/partials/_base.sass */
+/* line 40, ../sass/partials/_base.sass */
 .phone-background {
   background: #FFF;
   color: #333;
-  height: 500px;
-  width: 360px;
+  height: 480px;
+  width: 320px;
   border-radius: 10px;
 }
 
-/* line 45, ../sass/partials/_base.sass */
+/* line 47, ../sass/partials/_base.sass */
 .timer {
   display: block;
   position: relative;
-  top: 30px;
+  top: 80px;
 }
-/* line 49, ../sass/partials/_base.sass */
+/* line 51, ../sass/partials/_base.sass */
 .timer p {
   font-size: 4rem;
   text-align: center;
 }
 
-/* line 53, ../sass/partials/_base.sass */
+/* line 55, ../sass/partials/_base.sass */
 .buttons {
   display: block;
   text-align: center;
   position: relative;
-  top: 60px;
+  top: 130px;
 }
-/* line 58, ../sass/partials/_base.sass */
+/* line 60, ../sass/partials/_base.sass */
 .buttons button {
   cursor: pointer;
   width: 120px;
   height: 40px;
 }
 
-/* line 63, ../sass/partials/_base.sass */
+/* line 65, ../sass/partials/_base.sass */
 .reset {
   background: none;
   border: none;
 }
+/* line 68, ../sass/partials/_base.sass */
+.reset:hover {
+  color: #555;
+}
 
-/* line 67, ../sass/partials/_base.sass */
+/* line 70, ../sass/partials/_base.sass */
 .start {
   background: #552cab;
   border: none;
   color: #FFF;
   border-radius: 5px;
+}
+/* line 75, ../sass/partials/_base.sass */
+.start:hover {
+  background: #c5a0fe;
 }

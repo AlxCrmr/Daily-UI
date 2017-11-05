@@ -1,9 +1,13 @@
 body
-    background: #caf5f5
+    background: #c6f4f4
     font-family: sans-serif
 
 nav ul
     display: block
+    background: #f9f5fe
+    height: 60px
+    border-radius: 10px 10px 0 0
+
     &::after
         content: ""
         display: table
@@ -13,39 +17,37 @@ nav ul
         float: left
         margin: 30px 10px
         color: #552cab
+        position: relative
+        top: -5px
+        cursor: pointer
         &.bars
-            position: relative
-            left: -10px
+            left: -25px
+            &:hover
+                color: #c5a0fe
         &.elipse
             float: right
-            position: relative
-            right: 30px
+            right: 20px
+            &:hover
+                color: #c5a0fe
         &.timer-name
-            position: relative
-            left: 30px
             text-transform: uppercase
             font-weight: 700
 
-h2
-    text-align: center
-    position: relative
-    top: 50px
-
 .container
     width: 50%
-    margin: 50px auto
+    margin: 50px
 
 .phone-background
     background: #FFF
     color: #333
-    height: 500px
-    width: 360px
+    height: 480px
+    width: 320px
     border-radius: 10px
 
 .timer
     display: block
     position: relative
-    top: 30px
+    top: 80px
     & p
         font-size: 4rem
         text-align: center
@@ -54,7 +56,7 @@ h2
     display: block
     text-align: center
     position: relative
-    top: 60px
+    top: 130px
     & button
         cursor: pointer
         width: 120px
@@ -63,9 +65,12 @@ h2
 .reset
     background: none
     border: none
-
+    &:hover
+        color: #555
 .start
     background: #552cab
     border: none
     color: #FFF
     border-radius: 5px
+    &:hover
+        background: #c5a0fe
