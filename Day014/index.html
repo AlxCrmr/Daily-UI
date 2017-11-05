@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Dailly UI | Day 14 | Countdown Timer</title>
         <script src="https://use.fontawesome.com/fa4e67e080.js"></script>
-        <link rel="stylesheet" href="images/styles.css">
+        <link rel="stylesheet" href="stylesheets/styles.css">
     </head>
     <body>
         <div class="container">
@@ -12,19 +12,20 @@
         <div class="phone-background">
             <nav>
             <ul>
-                <li><i class="fa fa-bars" aria-hidden="true"></i></li>
-                <li>Countdown Timer</li>
-                <li><i class="fa fa-ellipsis-v" aria-hidden="true"></i></li>
+                <li class="bars"><i class="fa fa-bars" aria-hidden="true"></i></li>
+                <li class="timer-name">Countdown Timer</li>
+                <li class="elipse"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></li>
             </ul>
             </nav>
-            <div class="clock">
-                <h3>Set Your Time:</h3>
-                <div class="timer">
-                    <span class="numbers">00</span><span class="colon">:</span><span class="numbers">00</span><span class="colon">:</span><span class="numbers">00</span><span class="colon">
-                </div>
-                <button type="button" name="button">RESET</button><button type="button" name="button">START</button>
 
-            </div>
+                <h2>Set Your Time:</h2>
+                <div class="timer">
+                    <p>00:00:00</p>
+                </div>
+                <div class="buttons">
+                    <button class="reset" type="button" name="button">RESET</button><button class="start" type="button" name="button">START</button>
+                </div>
+
         </div>
 
         </div>
